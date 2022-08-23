@@ -1,0 +1,12 @@
+/node_modules/
+/lib/
+/dist/
+/storybook-static/
+custom-elements.json
+# top level source
+index.js
+index.js.map
+index.d.ts
+index.d.ts.map
+# only generated for size check
+my-element.bundled.js
