@@ -10,3 +10,8 @@ index.d.ts
 index.d.ts.map
 # only generated for size check
 my-element.bundled.js
+*.js.map
+*.ts.map
+*.d.ts
+.idea
+src/ui/Components/*/*.js
