@@ -7,7 +7,8 @@
   "module": "dist/hahn-ui.js",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others \"npm run serve\" \"npm run tsc:watch\"",
+    "stage": "cd dev && npm run dev",
+    "dev": "concurrently --kill-others \"npm run tsc:watch\" \"cd dev && npm run dev\"",
     "build": "tsc && rollup -c",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
     "lint:eslint": "eslint 'src/**/*.ts'",
